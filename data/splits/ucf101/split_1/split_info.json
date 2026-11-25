@@ -1,0 +1,19 @@
+{
+    "dataset": "UCF101",
+    "classes": 100,
+    "excluded_classes": [
+        "Archery"
+    ],
+    "official_split": 1,
+    "method": "StratifiedGroupKFold",
+    "n_splits": 10,
+    "selected_fold": 10,
+    "random_state": 42,
+    "target_validation_ratio": 0.1,
+    "actual_validation_ratio": 0.09975617512986325,
+    "train_videos": 8492,
+    "validation_videos": 941,
+    "test_videos": 3742,
+    "total_videos": 13175,
+    "grouping": "class_name + gXX"
+}

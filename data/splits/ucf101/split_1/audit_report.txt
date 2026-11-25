@@ -1,0 +1,13 @@
+UCF101 100-CLASS SPLIT AUDIT
+============================
+Train videos: 8492
+Validation videos: 941
+Test videos: 3742
+Classes in each split: 100
+Video overlap: 0
+Group overlap: 0
+Archery excluded: YES
+Official test preserved: YES
+Method: StratifiedGroupKFold
+Selected fold: 10
+Final status: PASSED

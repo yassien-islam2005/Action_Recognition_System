@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+# Model artifacts and experiment outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+checkpoints/
+results/
+runs/
+wandb/
+
+# Dataset archives and extracted data
+data/raw/*
+data/processed/*
+data/annotations/*
+*.avi
+*.mp4
+
+# Keep split metadata and lists under version control.
+!data/splits/
+!data/splits/**
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+data/splits/ucf101_official/*.zip
