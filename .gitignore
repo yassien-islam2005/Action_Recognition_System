@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+runs/
+data/
+models/
+test_videos/
+outputs/
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.avi
+*.zip
+*.pkl
+node_modules/
+.env
